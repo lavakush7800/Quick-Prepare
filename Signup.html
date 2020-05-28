@@ -1,0 +1,101 @@
+
+
+<html>
+    <head>
+        <style>
+            .responsive-img{
+                text-align: center;
+                
+            }
+}
+       </style>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <style>
+            body{
+                background-image: url("img/p2.jpg");
+            }
+
+        </style>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+        
+        <div class="container">
+    <div class="row"> 
+        
+            <div class="col s12 l6 m6 offset-l3 white z-depth-3"  style="margin-top:100px;">
+            <div class="">
+                <div class="row">
+                <center><img src="img/logo1.png" alt="logo img" class="responsive-img align-center" height="200" width="200"style="margin-top:10px;"></center>
+                </div>
+                <div class="row" style="margin:0px 5px 0px 5px;">
+                <div class="input-field col s12 l12 m12">
+                    
+   
+              </div>
+              </div>      <div class="row" style="margin:0px 5px 0px 5px;">
+        
+                     <div class="input-field col s12 l12 m12">
+                         <i class="material-icons prefix">account_circle
+                                                                           </i>
+                         <input type="text" name="name"id="name" required>
+                         <label for="name">Name</label>
+                    </div>
+					
+					<div class="input-field col s12 l12 m12">
+                         <i class="material-icons prefix">mail</i>
+                         <input type="email" name="name"id="email" required>
+                         <label for="email">Email</label>
+                    </div>
+					
+					
+					
+                    <div class="input-field col s12 l12 m12 ">
+                        <i class="material-icons prefix">lock</i>
+                        <input type="password" id="passwaord" required>
+                        <label for="password">password</label>
+                    </div>
+                    <div class="input-field col s12 l12 m12">
+                         <i class="material-icons prefix">call</i>
+                         <input type="number" name="number"id="number" required>
+                         <label for="number">Mobile Number</label>
+                    </div>
+					<div class="input-field col s12 l12 m12">
+                         <i class="material-icons prefix">edit_location</i>
+                         <input type="text" name="address"id="number" required>
+                         <label for="text">Address</label>
+                    </div>
+                        
+                    <div class="row" style="text-align: center;">
+                      <a href="index.php">  <button class="btn waves-effect waves-light " style=" margin-top:20px;"><i class="material-icons right">send</i>submit</button></a>
+                                                 
+                    </div>
+                    <div class="row" style="text-align: center;" >
+                    <a href="#"><p >forget password ?</p></a>
+                    <a href="#"><p >Login</p></a>
+                    </div>
+                                               
+                    </div>
+                    
+                </div>
+                </div>
+                </div>
+            </div>
+       
+        <script>
+         $(document).ready(function(){
+    $('select').formSelect();
+  });
+        
+        </script>
+    </body>
+</html>
